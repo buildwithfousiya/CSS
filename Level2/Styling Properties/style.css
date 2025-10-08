@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: brown; /* border: 2px solid black; */
+    text-align: center;
+    border-radius: 10%;    /*10px */
+}
+
+h1{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    background-color: lavender;
+    color: blueviolet;
+    text-align: center;
+    padding: 1px 3px 9px 12px; /* padding-top|padding-right|padding-bottom|padding-left (clock-wise)*/
+    /* padding-left or padding-right or padding-top or padding-bottom *//* padding-left or padding-right or padding-top or padding-bottom */
+    margin: 50px 40px 30px 20px; /* margin-top|margin-right|margin-bottom|margin-left (clock-wise)*/
+    /* margin-left or margin-right or margin-top or margin-bottom */
+}
+
