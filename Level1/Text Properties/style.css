@@ -1,0 +1,44 @@
+/* mdn text decoration */
+
+/* text-align:right,left,center or start,end */
+/* text-decoration:underline,overline,line-through */
+/* units: absolute, relative */
+
+
+p {
+    text-align: right;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: dotted underline;
+}
+
+a {
+    text-decoration: none; /*none is used to remove the property */ 
+}
+
+/* font-weight:normal,bold,bolder,lighter or 100-900 */
+/* font family */ 
+#h1{
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#h2{
+    font-weight: bold;
+
+}
+#h3{
+    font-weight: bolder; /*900*/
+}
+/* text transform: uppercase,lowercase,capitilize,none */
+#h4{
+    font-weight: lighter; /* 100 */
+    text-transform: uppercase;
+}
+
+
+
+

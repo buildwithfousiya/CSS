@@ -1,0 +1,22 @@
+*{
+    color: blue;     /* universal selector */
+}
+
+h1{
+    color: orange;   /* element selector */
+}
+
+button{
+    color: brown;    /* element selector */
+}
+
+#headingone{
+    color: yellow;   /* id selector(single element/unique name) */
+}
+
+.myClass{
+    color: magenta;  /* class selector(multiple element) */
+}
+
+
+

@@ -1,0 +1,16 @@
+h2 {
+    color:orange;     /* External(stylesheet)*/
+}
+
+p{
+    color:rgb(0, 26, 255);  
+}
+
+button{
+    color: brown;
+    background-color: burlywood;
+}
+
+body{
+    background-color: rgb(242, 172, 206);
+}
