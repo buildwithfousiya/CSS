@@ -1,0 +1,38 @@
+/* position: static, relative, absolute, fixed */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static; /*by default*/
+}
+
+#box2{
+    position: relative; /*relative to its og position */
+    top: 10px;
+    left: 10px;
+    z-index: 1; /*z-index: decides stack level of elements*/
+}
+
+#box3{
+    position: absolute; /* removed from the normal flow (positioned relative to its closest positioned ancestor)*/
+    top: 500px;
+    left: 20px;
+}
+
+#box4{
+    position: fixed; /* fixed to viewport */
+    bottom: 10px;
+    top: 0px;
+}
+
+#box5{
+    position: sticky; /* positioned based on user's scroll position */
+    top: 0;
+}
+
+
