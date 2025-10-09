@@ -1,0 +1,39 @@
+/* display: inline, block, inline-block, none */
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+}
+
+#box1{
+    display: inline; /* takes only space requires by element*/
+    background-color: blue;
+}
+
+#box2{
+    display: none; /* space reserved but but remove the element */
+    background-color: green;
+}
+
+#box3{
+    display: inline-block;  /*similer to inline but can set margin and padding*/
+    background-color: red;
+    margin: 60px;
+    padding: 30px;
+}
+
+#box4{
+    display: block;  /*takes full space available in width*/
+    background-color: orange;
+}
+
+/*visibility*/
+#box5{
+    visibility: hidden;    /* no space reserved*/
+    background-color: yellow;
+}
+
+#box6{
+    background-color: rgba(123, 81, 163, 0.5); /*alpha channel(rgba can vary from 0-1 opacity)*/
+}
