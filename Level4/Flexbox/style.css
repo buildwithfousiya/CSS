@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+#container{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: row; /* flex-direction:row, row-reverse, column, column-reverse */
+    /* flex properties- justify-content:(flex-end, flex-start, center, space-around, space-between, space-evenly), flex-wrap:(nowrap, wrap, wrap-reverse), align-items:(center,flex-end,flex-star), align-content:(cenetr, flex-start, flex-end)*/
+    justify-content: center;
+    /*flex-wrap: wrap;*/   /*commented due to flex-grow anf shrink*/
+    align-items: center;
+    /*align-content: flex-start;*/  /*commented due to align self in box5 */
+    /* flex items-align-self, flex-grow, flex-shrink */
+
+}
+
+div{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    display: inline-block
+}
+
+#box1{
+    background-color: lightblue;
+}
+
+#box2{
+    background-color: lightgreen;
+    height: 200px;
+    flex-grow: 1;
+}
+
+#box3{
+    background-color: lightyellow;
+    height: 75px;
+    flex-shrink: 1;
+    
+}
+
+#box4{
+    background-color: lightpink;
+}
+
+#box5{
+    background-color: lightsalmon;
+    align-self: flex-end;
+}
