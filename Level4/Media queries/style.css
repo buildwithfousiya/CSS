@@ -1,0 +1,13 @@
+/* help create a responsive website*/
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media (width:600px) {        /* width, min-width, max-width */
+    div{                      /* @media(min-width:200px)and(max-width:300px) */
+        background-color:red;
+    }
+}
