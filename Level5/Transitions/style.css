@@ -1,0 +1,27 @@
+/* transition-property: property you want to transtion(font-size, width..)
+transition-duration: 2s/4ms...
+transition-timing-function: ease-in/ ease-out/ linear/ steps..
+transition-delay: 2s/ 4ms.. */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+    transition: all 2s steps(5) 1s;
+
+}
+
+div:hover {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+div:active {
+    background-color: pink;
+}
